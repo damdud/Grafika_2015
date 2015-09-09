@@ -1,20 +1,15 @@
-﻿Build started 2015-09-09 11:24:35.
-     1>Project "c:\Users\Damian\documents\visual studio 2010\Projects\Grafika_2015\Grafika_2015\Grafika_2015.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Creating "Debug\Grafika_2015.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Glew i glut\freeglut\include" /I"C:\Glew i glut\glew-1.11.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+﻿Build started 2015-09-09 19:05:09.
+     1>Project "C:\Users\Sławomir\Desktop\Grafika_2015\Grafika_2015\Grafika_2015.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Glew i glut\glew-1.11.0\include" /I"C:\Glew i glut\freeglut\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
          Source.cpp
+     1>c:\users\sławomir\desktop\grafika_2015\grafika_2015\source.cpp(15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\damian\documents\visual studio 2010\Projects\Grafika_2015\Debug\Grafika_2015.exe" /NOLOGO /LIBPATH:"C:\Glew i glut\freeglut\lib" /LIBPATH:"C:\Glew i glut\glew-1.11.0\lib" glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Grafika_2015.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\damian\documents\visual studio 2010\Projects\Grafika_2015\Debug\Grafika_2015.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\damian\documents\visual studio 2010\Projects\Grafika_2015\Debug\Grafika_2015.lib" /MACHINE:X86 Debug\Source.obj
-         Grafika_2015.vcxproj -> c:\users\damian\documents\visual studio 2010\Projects\Grafika_2015\Debug\Grafika_2015.exe
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\damian\documents\visual studio 2010\Projects\Grafika_2015\Debug\Grafika_2015.exe;#1" /manifest Debug\Grafika_2015.exe.intermediate.manifest
-       FinalizeBuildStatus:
-         Deleting file "Debug\Grafika_2015.unsuccessfulbuild".
-         Touching "Debug\Grafika_2015.lastbuildstate".
-     1>Done Building Project "c:\Users\Damian\documents\visual studio 2010\Projects\Grafika_2015\Grafika_2015\Grafika_2015.vcxproj" (build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sławomir\Desktop\Grafika_2015\Debug\Grafika_2015.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Glew i glut\glew-1.11.0\lib" /LIBPATH:"C:\Glew i glut\freeglut\lib" glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sławomir\Desktop\Grafika_2015\Debug\Grafika_2015.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sławomir\Desktop\Grafika_2015\Debug\Grafika_2015.lib" /MACHINE:X86 Debug\Source.obj
+         Grafika_2015.vcxproj -> C:\Users\Sławomir\Desktop\Grafika_2015\Debug\Grafika_2015.exe
+     1>Done Building Project "C:\Users\Sławomir\Desktop\Grafika_2015\Grafika_2015\Grafika_2015.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:11.28
+Time Elapsed 00:00:01.40
